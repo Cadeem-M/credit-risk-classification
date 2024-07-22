@@ -45,3 +45,5 @@ weighted avg       0.99      0.99      0.99     19384
 
 In conclusion, the logistic regression model seems to do reasonably well at distinguishing loan statuses. With a 99% accuracy, we can say the model does a good job at correctly predicting observations. Furthermore, the model seems to perform really well at determining healthy loans. With a precision of 100%, all of its predicted healthy loans were actually healthy loans and a recall of 99% means it was able to capture 99% of the total healthy loans. 
 
+On the otherhand, we see noticably lower precision and recall for predicting high-risk loans. For status loans equal to 1, we see a precision of 85%, which means our model falsly predicted high-risk loans 15% of the time. For a bank, this could be a lost of sizeable business if a loan applicants were refused for being falsly labeled as high-risk. Then, we see a recall of 91% for high-risk loans. This means that the model captured 91% of the possible high-risk loans. This is a reasonably well performance though there is room for improvement overall in predicting high-risk loans.
+
